@@ -1,0 +1,55 @@
+/* Palette */
+/*
+navy: #2B2D42
+orange: #EC4E20
+olive: #574F2A
+sand: #E0CBA8
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans";
+}
+
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 100px; /* fix for navbar blocking headers */
+}
+
+#navbar{
+	width: fit-content;
+	background-color: #2B2D42;
+	top: 20px;
+	border-color: #574F2A;
+}
+
+#navbar .nav-link{
+	font-family: "Montserrat", sans-serif;
+	color: #E0CBA8;
+}
+
+#contact img{
+	width: 32px;
+}
+
+body{
+	font-family: "Noto Sans", sans-serif;
+	background-color: #E0CBA8;
+	color: #574F2A;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Montserrat", sans-serif;
+	color: #2B2D42;
+}
+
+h1{
+	font-weight: 600;
+}
+
+h3{
+	color: #574F2A;
+	font-weight: 500;
+}

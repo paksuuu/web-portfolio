@@ -38,6 +38,10 @@ html{
 	width: 32px;
 }
 
+#contact iframe{
+	border: 0;
+}
+
 body{
 	font-family: "Noto Sans", sans-serif;
 	background-color: #E0CBA8;
@@ -57,6 +61,8 @@ h3{
 	color: #574F2A;
 	font-weight: 500;
 }
+
+
 
 #scrollTopBtn{
 	position: fixed;
